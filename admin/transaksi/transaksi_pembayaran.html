@@ -1,0 +1,100 @@
+<html lang="en">
+    <head>
+        <title>Transaksi Pembayaran</title>
+                        
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        
+        <!-- Table 1 -->
+        <table align="center" cellpadding="5" cellspacing="0" class="tabel">
+
+            <!-- Heading -->
+            <thead>
+                <tr>
+                    <th class="profile">
+                        <img src="../../img/profile.png" alt="Profile">
+                        <h4>Selamat Datang, Ansor</h4>
+                        <p>Sebagai Admin</p>
+                        <a href="../../login/mulai.html"><input type="button" value="Logout" class="button-logout"></a>
+                    </th>
+                    <th class="judul">
+                        <h2>Transaksi Pembayaran</h2>
+                        <a href="input_transaksi.html"><input type="button" value="Tambah Data" class="button-input"></a>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <!-- List Menu -->
+                    <td class="list-menu">
+                        <ul>
+                            <li><img src="../../img/home-abu.png" alt="Home"><a href="../beranda/beranda.html">DASHBOARD</a></li>
+                            <li><img src="../../img/admin-abu.png" alt="Petugas"><a href="../data_petugas/data_petugas.html">DATA PETUGAS ADMIN</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_spp/data_spp.html">DATA SPP</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_kelas/data_kelas.html">DATA KELAS</a></li>
+                            <li><img src="../../img/siswa-abu.png" alt="Siswa"><a href="../data_siswa/data_siswa.html">DATA SISWA</a></li>
+                            <li><img src="../../img/transaksi-kuning.png" alt="Transaksi"><a href="transaksi_pembayaran.html" class="activ">TRANSAKSI PEMBAYARAN</a></li>
+                            <li><img src="../../img/history-abu.png" alt="History"><a href="../history/history_pembayaran.html">HISTORY PEMBAYARAN</a></li>
+                        </ul>
+                    </td>
+
+                    <!-- Isi Konten (membuat table didalam table) -->
+                    <td>
+
+                        <!-- Table 2 -->
+                        <table cellpadding="5" cellspacing="0" class="tabel-2">
+                            <thead>
+                                <th>id_pembayaran</th>
+                                <th>tgl_bayar</th>
+                                <th>bulan_dibayar</th>
+                                <th>tahun_dibayar</th>
+                                <th>jm_bayar</th>
+                                <th>nm_petugas</th>
+                                <th>nama</th>
+                                <th>Pilihan</th>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Tp01</td>
+                                    <td>15</td>
+                                    <td>Februari</td>
+                                    <td>2022</td>
+                                    <td>120.000</td>
+                                    <td>Ansor</td>
+                                    <td>Asep</td>
+                                    <td>
+                                        <a href="ubah_transaksi.html"><input type="button" value="Ubah"  class="button-ubah"></a>
+                                        <a href="#"><input type="button" value="Hapus" class="button-hapus"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tp02</td>
+                                    <td>26</td>
+                                    <td>Agustus</td>
+                                    <td>2023</td>
+                                    <td>125.000</td>
+                                    <td>Effi</td>
+                                    <td>Udin</td>
+                                    <td>
+                                        <a href="ubah_transaksi.html"><input type="button" value="Ubah"  class="button-ubah"></a>
+                                        <a href="#"><input type="button" value="Hapus" class="button-hapus"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

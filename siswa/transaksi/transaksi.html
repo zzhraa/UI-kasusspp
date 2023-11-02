@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Transaksi Pembayaran</title>
+                        
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        
+        <table align="center" cellpadding="5" cellspacing="0" class="tabel">
+            <thead>
+                <tr>
+                    <th class="profile">
+                        <img src="../../img/user.png" alt="User">
+                        <h4>Selamat Datang, Asep</h4>
+                        <p>Sebagai Siswa</p>
+                        <a href="../../login/mulai.html"><input type="button" value="Logout" class="button-logout"></a>
+                    </th>
+                    <th class="judul">
+                        <h2>TRANSFER BANK</h2>
+                        <p>Untuk melakukan pembayaran online, silahkan transfer ke rekening BRI : 123321456654 A/N SMK Muhammadiyah Tasikmalaya</p>
+                        <p>Setelah itu proses pembayaran sesuai bulan yang akan dibayar dan jumlah nominal sesuai tahun angkatan, kemudian upload bukti transfer</p>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="list-menu">
+                        <ul>
+                            <li><img src="../../img/home-abu.png" alt="Home"><a href="../beranda/beranda.html">DASHBOARD</a></li>
+                            <li><img src="../../img/transaksi-kuning.png" alt="Transaksi"><a href="transaksi.html" class="activ">TRANSAKSI PEMBAYARAN</a></li>
+                            <li><img src="../../img/history-abu.png" alt="History"><a href="../history/history.html">HISTORY PEMBAYARAN</a></li>
+                        </ul>
+                    </td>
+                    
+                    <td>
+                        <table cellpadding="5" cellspacing="0" class="table-3">
+                            <tr>
+                                <td>Nama Siswa</td>
+                                <td>: <input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Kelas</td>
+                                <td>: <input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Bulan Dibayar</td>
+                                <td>: <input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Jumlah Bayar</td>
+                                <td>: <input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;
+                                    <a href="../history/history.html"><input type="submit" value="Bayar" class="button-bayar"></a>
+                                    <input type="submit" value="Batal" class="button-batal">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

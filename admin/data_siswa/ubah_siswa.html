@@ -1,0 +1,114 @@
+<html lang="en">
+    <head>
+        <title>Ubah Data Siswa</title>
+                
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        
+        <!-- Table 1 -->
+        <table align="center" cellpadding="5" cellspacing="0" class="tabel">
+
+            <!-- Heading -->
+            <thead>
+                <tr>
+                    <th class="profile">
+                        <img src="../../img/profile.png" alt="Profile">
+                        <h4>Selamat Datang, Ansor</h4>
+                        <p>Sebagai Admin</p>
+                        <a href="../../login/mulai.html"><input type="button" value="Logout" class="button-logout"></a>
+                    </th>
+                    <th class="judul">
+                        <h2>Ubah Data Siswa</h2>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <!-- List Menu -->
+                    <td class="list-menu">
+                        <ul>
+                            <li><img src="../../img/home-abu.png" alt="Home"><a href="../beranda/beranda.html">DASHBOARD</a></li>
+                            <li><img src="../../img/admin-abu.png" alt="Petugas"><a href="../data_petugas/data_petugas.html">DATA PETUGAS ADMIN</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="data_spp.html">DATA SPP</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_kelas/data_kelas.html">DATA KELAS</a></li>
+                            <li><img src="../../img/siswa-kuning.png" alt="Siswa"><a href="../data_siswa/data_siswa.html" class="activ">DATA SISWA</a></li>
+                            <li><img src="../../img/transaksi-abu.png" alt="Transaksi"><a href="../transaksi/transaksi_pembayaran.html">TRANSAKSI PEMBAYARAN</a></li>
+                            <li><img src="../../img/history-abu.png" alt="History"><a href="../history/history_pembayaran.html">HISTORY PEMBAYARAN</a></li>
+                        </ul>
+                    </td>
+
+                    <!-- Isi Konten (membuat table didalam table) -->
+                    <td>
+
+                        <!-- Table 2 -->
+                        <table class="table-3">
+                            <tr>
+                                <th>NISN</th>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>NIS</th>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>Nama</th>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <th>Alamat</th>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <th>No Tlp</th>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>ID Kelas</th>
+                                <td>
+                                    <select>
+                                        <option>Pilih ID Kelas</option>
+                                        <option>K01</option>
+                                        <option>K02</option>
+                                        <option>K03</option>
+                                        <option>K04</option>
+                                        <option>K05</option>
+                                        <option>K06</option>
+                                    </select>
+                                    <input type="text" placeholder="Tampil nm_kelas">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ID SPP</th>
+                                <td>
+                                    <select>
+                                        <option>Pilih ID SPP</option>
+                                        <option>Sp01</option>
+                                        <option>Sp02</option>
+                                    </select>
+                                    <input type="text" placeholder="Tampil tahun">
+                                    <input type="text" placeholder="Tampil nomminal">
+                                </td>
+                            </tr>
+                        </table>
+
+                        <br>
+
+                        <div class="button-center">
+                            <a href="data_siswa.html"><input type="button" value="Ubah" class="button-ubah2"></a>
+                            <a href="data_siswa.html"><input type="button" value="Batal" class="button-batal"></a>
+                        </div>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

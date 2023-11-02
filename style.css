@@ -1,0 +1,435 @@
+/* LOGIN */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 20pt;
+}
+h2 {
+    font-size: 18pt;
+}
+.screen {
+    font-family: 'Montserrat', sans-serif;
+    color: #27272a;
+    background: #7ABAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.box-white {
+    margin: auto;
+    background: white;
+    width: 650px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kedua-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+.button img {
+    width: 20px;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background: #fcc932;
+}
+.button-masuk {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-masuk:hover {
+    background: #fcc932;
+}
+.button-batal {
+    color: white;
+    background: #f24657;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-batal:hover {
+    background: #ec2b3f;
+}
+
+/* ADMIN - BERANDA */
+.background {
+    background-color: #f6f6f6;
+}
+.tabel {
+    width: 100%;
+}
+.profile {
+    background-color: white;
+    width: 300px;
+}
+.judul {
+    background-color: white;
+}
+.list-menu {
+    background-color: white;
+    height: 57vh;
+    line-height: 40px;
+}
+ul {
+    list-style-type: none;
+}
+ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #6E7174;
+    transition: 0.3s ease;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: #FFD75E;
+}
+ul li a.activ {
+    color: #FFD75E;
+    font-weight: bold;
+}
+.data {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.data-1 {
+    background-color: #f24657;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background 0.3s ease;
+}
+.data-1:hover {
+    background-color: #ec2b3f;
+}
+.data-2 {
+    background-color: #42BF5F;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background 0.3s ease;
+}
+.data-2:hover {
+    background-color: #2bb54b;
+}
+.data-3 {
+    background-color: #FFD75E;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background 0.3s ease;
+}
+.data-3:hover {
+    background-color: #fcc932;
+}
+.data-4 {
+    background-color: #7ABAFF;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background 0.3s ease;
+}
+.data-4:hover {
+    background-color: #59A9FF;
+}
+.button-logout {
+    color: white;
+    background: #f24657;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-logout:hover {
+    background: #ec2b3f;
+}
+.button-input {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-input:hover {
+    background: #fcc932;
+}
+.tabel-2 {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+.tabel-2 thead {
+    background-color: #7ABAFF;
+    color: white;
+}
+.tabel-2 tbody {
+    background-color: white;
+}
+.button-detail {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-detail:hover {
+    background: #fcc932;
+}
+.button-hapus {
+    color: white;
+    background: #f24657;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-hapus:hover {
+    background: #ec2b3f;
+}
+.table-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+.table-3 tr th {
+    text-align: left;
+    padding-right: 20px;
+}
+.table-3 tr td input {
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+}
+.button-batal {
+    color: white;
+    background: #f24657;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-batal:hover {
+    background: #ec2b3f;
+}
+.button-ubah {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-ubah:hover {
+    background: #fcc932;
+}
+.button-ubah2 {
+    color: white;
+    background: #42BF5F;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-ubah2:hover {
+    background: #2bb54b;
+}
+.button-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.button-kembali {
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+    margin-left: 90px;
+}
+.button-kembali:hover {
+    background: #7ABAFF;
+    color: white;
+}
+.button-simpan {
+    color: white;
+    background: #42BF5F;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-simpan:hover {
+    background: #2bb54b;
+}
+.button-print {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-print:hover {
+    background: #fcc932;
+}
+.button-selesai {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-selesai:hover {
+    background: #fcc932;
+}
+
+/* SISWA */
+.button-pilih {
+    background: white;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-pilih:hover {
+    background: #59A9FF;
+    color: white;
+}
+.button-upload {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-upload:hover {
+    background: #fcc932;
+}
+.button-konfirmasi {
+    color: white;
+    background: #FFD75E;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-konfirmasi:hover {
+    background: #fcc932;
+}
+.button-bayar {
+    color: white;
+    background: #42BF5F;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-bayar:hover {
+    background: #2bb54b;
+}
+.tabel-4 {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.button-file {
+    color: white;
+    background: #c3c3c3;
+    border: none;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+.button-file:hover {
+    background: #adadad;
+}

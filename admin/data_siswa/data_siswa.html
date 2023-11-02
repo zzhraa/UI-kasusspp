@@ -1,0 +1,114 @@
+<html lang="en">
+    <head>
+        <title>Data Siswa</title>
+                        
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        
+        <!-- Table 1 -->
+        <table align="center" cellpadding="5" cellspacing="0" class="tabel">
+
+            <!-- Heading -->
+            <thead>
+                <tr>
+                    <th class="profile">
+                        <img src="../../img/profile.png" alt="Profile">
+                        <h4>Selamat Datang, Ansor</h4>
+                        <p>Sebagai Admin</p>
+                        <a href="../../login/mulai.html"><input type="button" value="Logout" class="button-logout"></a>
+                    </th>
+                    <th class="judul">
+                        <h2>Data Siswa</h2>
+                        <a href="input_siswa.html"><input type="button" value="Tambah Data" class="button-input"></a>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <!-- List Menu -->
+                    <td class="list-menu">
+                        <ul>
+                            <li><img src="../../img/home-abu.png" alt="Home"><a href="../beranda/beranda.html">DASHBOARD</a></li>
+                            <li><img src="../../img/admin-abu.png" alt="Petugas"><a href="../data_petugas/data_petugas.html">DATA PETUGAS ADMIN</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="data_spp.html">DATA SPP</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_kelas/data_kelas.html">DATA KELAS</a></li>
+                            <li><img src="../../img/siswa-kuning.png" alt="Siswa"><a href="../data_siswa/data_siswa.html" class="activ">DATA SISWA</a></li>
+                            <li><img src="../../img/transaksi-abu.png" alt="Transaksi"><a href="../transaksi/transaksi_pembayaran.html">TRANSAKSI PEMBAYARAN</a></li>
+                            <li><img src="../../img/history-abu.png" alt="History"><a href="../history/history_pembayaran.html">HISTORY PEMBAYARAN</a></li>
+                        </ul>
+                        </ul>
+                    </td>
+
+                    <!-- Isi Konten (membuat table didalam table) -->
+                    <td>
+
+                        <!-- Table 2 -->
+                        <table cellpadding="5" cellspacing="0" class="tabel-2">
+                            <thead>
+                                <th>nisn</th>
+                                <th>nis</th>
+                                <th>nama</th>
+                                <th>alamat</th>
+                                <th>no_tlp</th>
+                                <th>id_spp</th>
+                                <th>id_kelas</th>
+                                <th>Pilihan</th>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>11345</td>
+                                    <td>1123</td>
+                                    <td>Asep</td>
+                                    <td>Jl. Buntu</td>
+                                    <td>081321</td>
+                                    <td>Sp01</td>
+                                    <td>K01</td>
+                                    <td>
+                                        <a href="ubah_siswa.html"><input type="button" value="Ubah" class="button-ubah"></a>
+                                        <a href="#"><input type="button" value="Hapus" class="button-hapus"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11321</td>
+                                    <td>1233</td>
+                                    <td>Udin</td>
+                                    <td>Kp. Legok</td>
+                                    <td>085223</td>
+                                    <td>Sp02</td>
+                                    <td>K02</td>
+                                    <td>
+                                        <a href="ubah_siswa.html"><input type="button" value="Ubah" class="button-ubah"></a>
+                                        <a href="#"><input type="button" value="Hapus" class="button-hapus"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12233</td>
+                                    <td>1242</td>
+                                    <td>Dodo</td>
+                                    <td>Jl. Geksor</td>
+                                    <td>087731</td>
+                                    <td>Sp02</td>
+                                    <td>K04</td>
+                                    <td>
+                                        <a href="ubah_siswa.html"><input type="button" value="Ubah" class="button-ubah"></a>
+                                        <a href="#"><input type="button" value="Hapus" class="button-hapus"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

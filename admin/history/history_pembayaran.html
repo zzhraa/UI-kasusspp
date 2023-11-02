@@ -1,0 +1,94 @@
+<html lang="en">
+    <head>
+        <title>History Pembayaran</title>
+                        
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        
+        <!-- Table 1 -->
+        <table align="center" cellpadding="5" cellspacing="0" class="tabel">
+
+            <!-- Heading -->
+            <thead>
+                <tr>
+                    <th class="profile">
+                        <img src="../../img/profile.png" alt="Profile">
+                        <h4>Selamat Datang, Ansor</h4>
+                        <p>Sebagai Admin</p>
+                        <a href="../../login/mulai.html"><input type="button" value="Logout" class="button-logout"></a>
+                    </th>
+                    <th class="judul">
+                        <h2>History Pembayaran</h2>
+                        <a href="print.html"><input type="button" value="Print" class="button-print"></a>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <!-- List Menu -->
+                    <td class="list-menu">
+                        <ul>
+                            <li><img src="../../img/home-abu.png" alt="Home"><a href="../beranda/beranda.html">DASHBOARD</a></li>
+                            <li><img src="../../img/admin-abu.png" alt="Petugas"><a href="../data_petugas/data_petugas.html">DATA PETUGAS ADMIN</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_spp/data_spp.html">DATA SPP</a></li>
+                            <li><img src="../../img/data-abu.png" alt="Data"><a href="../data_kelas/data_kelas.html">DATA KELAS</a></li>
+                            <li><img src="../../img/siswa-abu.png" alt="Siswa"><a href="../data_siswa/data_siswa.html">DATA SISWA</a></li>
+                            <li><img src="../../img/transaksi-abu.png" alt="Transaksi"><a href="../transaksi/transaksi_pembayaran.html">TRANSAKSI PEMBAYARAN</a></li>
+                            <li><img src="../../img/history-kuning.png" alt="History"><a href="history_pembayaran.html" class="activ">HISTORY PEMBAYARAN</a></li>
+                        </ul>
+                    </td>
+
+                    <!-- Isi Konten (membuat table didalam table) -->
+                    <td>
+
+                        <!-- Table 2 -->
+                        <table cellpadding="5" cellspacing="0" class="tabel-2">
+                            <thead>
+                                <th>id_pembayaran</th>
+                                <th>nisn</th>
+                                <th>nama</th>
+                                <th>tgl_bayar</th>
+                                <th>bulan_dibayar</th>
+                                <th>tahun_dibayar</th>
+                                <th>jm_bayar</th>
+                                <th>nm_petugas</th>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Tp01</td>
+                                    <td>11345</td>
+                                    <td>Asep</td>
+                                    <td>15</td>
+                                    <td>Februari</td>
+                                    <td>2022</td>
+                                    <td>120.000</td>
+                                    <td>Ansor</td>
+                                </tr>
+                                <tr>
+                                    <td>Tp02</td>
+                                    <td>11321</td>
+                                    <td>Udin</td>
+                                    <td>26</td>
+                                    <td>Agustus</td>
+                                    <td>2023</td>
+                                    <td>125.000</td>
+                                    <td>Effi</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
